@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Particle System
+  m_EditorClassIdentifier: 
+  m_GroupName: Particle System
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e6d90c58c60119f4abc8f39fd230683b
+  m_SerializeEntries:
+  - m_GUID: fee9863ee8bc4ab42ac3425489623979
+    m_Address: SparksParticle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6fac0c54ad9ba6f4e9545062ca76e9fd
+    m_Address: BloodParticleEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f961c5be3eb4cb848b8df3d1eb6e5813
+    m_Address: ShootParticleEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: abaaf45cd68f5a347a0a4e84999a5b85, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9d4e2cf82ebb05940af77fc44d99b4bf, type: 2}
+    - {fileID: 11400000, guid: 5bbb5f1c5e701fb419e69c023fec7aae, type: 2}

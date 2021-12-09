@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  m_GroupName: UI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bf3e24139b052b34d8ce494e2bf727b9
+  m_SerializeEntries:
+  - m_GUID: f194c4c20dce98649aa2a7363d258d2a
+    m_Address: RootCanvas
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd586ae39f3976c4398667511b983fe4
+    m_Address: UILeftJumpPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1130ca332c50d34ab3a30c4fa08e587
+    m_Address: UILives
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af6a2f89c6676c942a7a6bb5a9b49a40
+    m_Address: UIRightPVPFireButton
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93da2e10df0e3084b84b58bdb8d623ae
+    m_Address: UILeftPVPFireButton
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1225e503dbe7934468deae6e1d596314
+    m_Address: HealImage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 286c5c11615742c49889d0e615d84ce3
+    m_Address: UIRightJumpPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f3d93409d141f542a0fdcfb7aee5b1e
+    m_Address: EndGameScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: abaaf45cd68f5a347a0a4e84999a5b85, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c3ef222bbed715346be9879400b557b9, type: 2}
+    - {fileID: 11400000, guid: dcaef9b13a1b8c14bbfd0c9675433a18, type: 2}

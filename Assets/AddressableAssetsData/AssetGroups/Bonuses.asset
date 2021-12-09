@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Bonuses
+  m_EditorClassIdentifier: 
+  m_GroupName: Bonuses
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 094ae517a58703844b52f33b1ca6b462
+  m_SerializeEntries:
+  - m_GUID: 52be77222aa8fb44f93f20259ad4c808
+    m_Address: AidKitBonus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8888dca5d98df7d40b6b378f63004a97
+    m_Address: BoombBonus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cbeb6269a768b004688490842f39624d
+    m_Address: Sheld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: abaaf45cd68f5a347a0a4e84999a5b85, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c8f847aec0565ad4c9fc0516a477718a, type: 2}
+    - {fileID: 11400000, guid: e56edddecc261904aa55cc0d367cf1fd, type: 2}

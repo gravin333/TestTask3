@@ -46,5 +46,10 @@ namespace CodeBase.Infrastructure.StateMachine
 
     private TState GetState<TState>() where TState : class, IExitableState => 
       _states[typeof(TState)] as TState;
+
+    public void ReloadScene()
+    {
+      Enter<LoadSceneState,LoadScene>(LoadScene.Init);
+    }
   }
 }

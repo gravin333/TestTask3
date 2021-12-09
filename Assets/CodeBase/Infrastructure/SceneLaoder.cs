@@ -17,9 +17,10 @@ namespace CodeBase.Infrastructure
         return;
       }
 
-      AsyncOperationHandle<SceneInstance> asyncOperationHandle = Addressables.LoadSceneAsync(sceneAssetPath);
+      AsyncOperationHandle<SceneInstance> asyncOperationHandle = Addressables.LoadSceneAsync(sceneAssetPath,LoadSceneMode.Single);
       await asyncOperationHandle.Task;
       onLoaded?.Invoke();
     }
+    
   }
 }

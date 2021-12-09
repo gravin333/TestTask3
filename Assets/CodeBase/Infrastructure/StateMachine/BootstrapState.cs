@@ -25,8 +25,15 @@ namespace CodeBase.Infrastructure.StateMachine
 
     public void Exit() {}
 
-    public void Enter() => 
+    public void Enter()
+    {
+      _sceneLoader.LoadScene(SceneAssetPath.Init,OnLoad);
+    }
+
+    private void OnLoad()
+    {
       _gameStateMachine.Enter<LoadSceneState, LoadScene>(_loadScene);
+    }
 
     private void RegistrationServices()
     {

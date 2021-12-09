@@ -8,6 +8,7 @@ using CodeBase.Infrastructure.Services;
 using CodeBase.Infrastructure.StateMachine;
 using CodeBase.StaticData;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ResetButton : MonoBehaviour
@@ -22,6 +23,6 @@ public class ResetButton : MonoBehaviour
 
     private void ResetScene()
     {
-        _gameStateMachine.Enter<LoadSceneState, LoadScene>(LoadScene.Scene1);
+        FindObjectOfType<GameBootstrap>().StartFromBegin();
     }
 }

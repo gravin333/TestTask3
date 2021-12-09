@@ -4,6 +4,7 @@
   {
     Scene1,
     Scene2,
-    MainMenu
+    MainMenu,
+    Init
   }
 }

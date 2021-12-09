@@ -18,9 +18,14 @@ namespace CodeBase.Infrastructure
       DontDestroyOnLoad(this);
     }
 
-    //private void Update()=>_game.Update();
+    public void StartFromBegin()
+    {
+      _game = new Game(_loadScene);
+      _game.GameStateMachine.Enter<BootstrapState>();
+    }
 
     public void Load(LoadScene loadScene) => 
       _loadScene = loadScene;
+    
   }
 }

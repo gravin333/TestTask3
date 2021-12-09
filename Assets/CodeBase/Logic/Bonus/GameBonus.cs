@@ -10,11 +10,11 @@ namespace CodeBase.Logic.Bonus
     private readonly string _bonusAssetPath;
     private readonly IGameFactory _gameFactory;
 
-    public GameBonus(BonusType aidKit, string bonusAssetPath)
+    public GameBonus(BonusType bonusType, string bonusAssetPath)
     {
       _gameFactory = AllServices.Container.Single<IGameFactory>();
       _bonusAssetPath = bonusAssetPath;
-      BonusType = aidKit;
+      BonusType = bonusType;
       LoadBonus();
     }
 

@@ -27,6 +27,9 @@ namespace CodeBase.Infrastructure.StateMachine
           break;
         case LoadScene.MainMenu:
           break;
+        case LoadScene.Init:
+          _sceneLoader.LoadScene(SceneAssetPath.Init);
+          break;
         default:
           throw new ArgumentOutOfRangeException(nameof(payload), payload, null);
       }

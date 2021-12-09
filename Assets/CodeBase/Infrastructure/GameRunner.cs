@@ -10,13 +10,14 @@ namespace CodeBase.Infrastructure
 
     private void Awake()
     {
-      if (!FindObjectOfType<GameBootstrap>())
+      GameBootstrap gameBootstrap = FindObjectOfType<GameBootstrap>();
+      if (!gameBootstrap)
       {
-        GameObject instantiate = Instantiate(GameBootstrapPrefab);
-        instantiate.GetComponent<GameBootstrap>().Load(LoadScene);
+        GameObject go = Instantiate(GameBootstrapPrefab);
+        go.GetComponent<GameBootstrap>().Load(LoadScene);
+        return;
       }
-
-      gameObject.SetActive(false);
+      gameBootstrap.Load(LoadScene);
     }
   }
 }
